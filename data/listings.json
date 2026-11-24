@@ -1,0 +1,17 @@
+[
+  {"id":"SR001","project":"Lakeview Residency","area":"Whitefield","bhk":2,"price_lakhs":92,"type":"Apartment","availability":"Ready to move"},
+  {"id":"SR002","project":"Lakeview Residency","area":"Whitefield","bhk":3,"price_lakhs":138,"type":"Apartment","availability":"Under construction"},
+  {"id":"SR003","project":"Orchid Enclave","area":"Sarjapur Road","bhk":2,"price_lakhs":78,"type":"Apartment","availability":"Ready to move"},
+  {"id":"SR004","project":"Orchid Enclave","area":"Sarjapur Road","bhk":3,"price_lakhs":112,"type":"Apartment","availability":"Under construction"},
+  {"id":"SR005","project":"Green Acres","area":"Electronic City","bhk":2,"price_lakhs":64,"type":"Apartment","availability":"Ready to move"},
+  {"id":"SR006","project":"Green Acres","area":"Electronic City","bhk":3,"price_lakhs":89,"type":"Apartment","availability":"Ready to move"},
+  {"id":"SR007","project":"Cedar Grove","area":"Hebbal","bhk":3,"price_lakhs":145,"type":"Apartment","availability":"Under construction"},
+  {"id":"SR008","project":"Cedar Grove","area":"Hebbal","bhk":4,"price_lakhs":198,"type":"Apartment","availability":"Under construction"},
+  {"id":"SR009","project":"Maple Heights","area":"Jayanagar","bhk":2,"price_lakhs":125,"type":"Apartment","availability":"Ready to move"},
+  {"id":"SR010","project":"Maple Heights","area":"Jayanagar","bhk":3,"price_lakhs":174,"type":"Apartment","availability":"Ready to move"},
+  {"id":"SR011","project":"Skyline Villas","area":"Devanahalli","bhk":3,"price_lakhs":155,"type":"Villa","availability":"Under construction"},
+  {"id":"SR012","project":"Skyline Villas","area":"Devanahalli","bhk":4,"price_lakhs":225,"type":"Villa","availability":"Under construction"},
+  {"id":"SR013","project":"Palm Court","area":"JP Nagar","bhk":2,"price_lakhs":83,"type":"Apartment","availability":"Ready to move"},
+  {"id":"SR014","project":"Palm Court","area":"JP Nagar","bhk":3,"price_lakhs":119,"type":"Apartment","availability":"Under construction"},
+  {"id":"SR015","project":"Riverstone","area":"Kanakapura Road","bhk":3,"price_lakhs":97,"type":"Apartment","availability":"Ready to move"}
+]

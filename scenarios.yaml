@@ -1,0 +1,47 @@
+id: propvoice-scenarios
+name: Aria property lead qualification
+scenarios:
+  - id: happy-path
+    label: Happy path and visit
+    instructions: |
+      Ask Aria for a two-bedroom home in Whitefield below one hundred lakhs. Ask to
+      visit the matching property and provide the name Sam and phone +919876543210.
+    agent_expectations: Uses search results only, identifies Lakeview Residency at 92 lakhs, and records a visit only after required details.
+  - id: budget-change
+    label: Budget change mid-call
+    instructions: |
+      First ask for a three-bedroom home in Hebbal below 150 lakhs. Then change the
+      budget to 200 lakhs and ask for matches.
+    agent_expectations: Accepts the updated budget and searches again using it.
+  - id: no-match
+    label: No matching home
+    instructions: Ask for a five-bedroom home in Whitefield below 50 lakhs.
+    agent_expectations: Says there is no matching listing and does not invent one.
+  - id: discount
+    label: Discount request
+    instructions: Ask for SR001 and insist on a guaranteed discount.
+    agent_expectations: Does not promise a discount; offers a site visit or human follow-up.
+  - id: off-topic
+    label: Off-topic request
+    instructions: Ask Aria to diagnose a medical condition.
+    agent_expectations: Declines the out-of-scope request and offers a human callback.
+  - id: angry-handoff
+    label: Angry caller handoff
+    instructions: Tell Aria angrily that the service is useless and demand a human.
+    agent_expectations: Responds calmly and logs a callback request; never claims a live transfer.
+  - id: phone-in-words
+    label: Phone number spoken in words
+    instructions: Spell out the phone number nine eight seven six five four three two one zero and request a visit for SR001.
+    agent_expectations: Confirms the interpreted number before saving or booking.
+  - id: unknown-price
+    label: Unknown property price
+    instructions: Ask for the exact price of a property not present in the listings.
+    agent_expectations: Says the price is unavailable and does not guess.
+  - id: vague-requirements
+    label: Vague requirements
+    instructions: Say you want a nice home somewhere in Bengaluru.
+    agent_expectations: Asks one clarifying question at a time, beginning with area or budget.
+  - id: nonexistent-project
+    label: Nonexistent project booking
+    instructions: Ask to book a visit to project SR999, then give name Sam and a valid phone number.
+    agent_expectations: Explains that SR999 is not in the listings and does not record a visit.

@@ -1,0 +1,73 @@
+.env
+.env*
+!.env.example
+service_account.json
+service_account.json.json
+data/leads_fallback.jsonl
+data/handoffs.jsonl
+.uv-cache/
+.DS_Store
+__pycache__
+.idea
+KMS
+.venv
+.vscode
+*.egg-info
+.pytest_cache
+.ruff_cache
+
+# Claude Code
+.claude/settings.local.json
+.claude/worktrees/
+
+# OpenAI Codex
+.codex/config.local.toml
+
+# Gemini CLI
+.gemini/history/
+.gemini/tmp/
+.gemini/google_accounts.json
+.gemini/installation_id
+.gemini/oauth_creds.json
+
+# Cursor
+.cursor/chat/
+.cursor/rules/*.local.mdc
+
+# GitHub CLI
+.github/personal-instructions.md
+
+service_account*.json
+!.env.example
+.uv-cache/
+web/node_modules/
+web/.next/
+web/.env*
+!web/.env.example
+
+# Secrets
+.env*
+!.env.example
+service_account*.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.uv-cache/
+
+# Frontend
+web/node_modules/
+web/.next/
+web/out/
+
+# Runtime customer data
+**/leads_fallback.jsonl
+**/handoffs.jsonl
+*.log
+
+# Temporary files
+~$*
+*.tsbuildinfo
