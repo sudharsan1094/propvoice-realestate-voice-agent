@@ -7,7 +7,7 @@ const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono"
 
 export const metadata: Metadata = {
   title: "PropVoice — Sunrise Realty",
-  description: "A voice introduction to Sunrise Realty properties in Bengaluru.",
+  description: "A voice-first way to explore Sunrise Realty sample properties in Bengaluru and Chennai.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

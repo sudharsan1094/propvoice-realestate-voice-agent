@@ -85,7 +85,13 @@ async def search_properties(
     try:
         results = _listings()
         if area:
-            results = [p for p in results if area.casefold() in p["area"].casefold()]
+            query = area.casefold()
+            results = [
+                p
+                for p in results
+                if query in p["area"].casefold()
+                or query in p.get("city", "").casefold()
+            ]
         if bhk is not None:
             results = [p for p in results if p["bhk"] == bhk]
         if max_budget_lakhs is not None:

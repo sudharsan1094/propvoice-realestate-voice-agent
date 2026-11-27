@@ -1,17 +1,252 @@
 [
-  {"id":"SR001","project":"Lakeview Residency","area":"Whitefield","bhk":2,"price_lakhs":92,"type":"Apartment","availability":"Ready to move"},
-  {"id":"SR002","project":"Lakeview Residency","area":"Whitefield","bhk":3,"price_lakhs":138,"type":"Apartment","availability":"Under construction"},
-  {"id":"SR003","project":"Orchid Enclave","area":"Sarjapur Road","bhk":2,"price_lakhs":78,"type":"Apartment","availability":"Ready to move"},
-  {"id":"SR004","project":"Orchid Enclave","area":"Sarjapur Road","bhk":3,"price_lakhs":112,"type":"Apartment","availability":"Under construction"},
-  {"id":"SR005","project":"Green Acres","area":"Electronic City","bhk":2,"price_lakhs":64,"type":"Apartment","availability":"Ready to move"},
-  {"id":"SR006","project":"Green Acres","area":"Electronic City","bhk":3,"price_lakhs":89,"type":"Apartment","availability":"Ready to move"},
-  {"id":"SR007","project":"Cedar Grove","area":"Hebbal","bhk":3,"price_lakhs":145,"type":"Apartment","availability":"Under construction"},
-  {"id":"SR008","project":"Cedar Grove","area":"Hebbal","bhk":4,"price_lakhs":198,"type":"Apartment","availability":"Under construction"},
-  {"id":"SR009","project":"Maple Heights","area":"Jayanagar","bhk":2,"price_lakhs":125,"type":"Apartment","availability":"Ready to move"},
-  {"id":"SR010","project":"Maple Heights","area":"Jayanagar","bhk":3,"price_lakhs":174,"type":"Apartment","availability":"Ready to move"},
-  {"id":"SR011","project":"Skyline Villas","area":"Devanahalli","bhk":3,"price_lakhs":155,"type":"Villa","availability":"Under construction"},
-  {"id":"SR012","project":"Skyline Villas","area":"Devanahalli","bhk":4,"price_lakhs":225,"type":"Villa","availability":"Under construction"},
-  {"id":"SR013","project":"Palm Court","area":"JP Nagar","bhk":2,"price_lakhs":83,"type":"Apartment","availability":"Ready to move"},
-  {"id":"SR014","project":"Palm Court","area":"JP Nagar","bhk":3,"price_lakhs":119,"type":"Apartment","availability":"Under construction"},
-  {"id":"SR015","project":"Riverstone","area":"Kanakapura Road","bhk":3,"price_lakhs":97,"type":"Apartment","availability":"Ready to move"}
+  {
+    "id": "SR001",
+    "project": "Lakeview Residency",
+    "city": "Bengaluru",
+    "area": "Whitefield",
+    "bhk": 2,
+    "price_lakhs": 92,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR002",
+    "project": "Lakeview Residency",
+    "city": "Bengaluru",
+    "area": "Whitefield",
+    "bhk": 3,
+    "price_lakhs": 138,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR003",
+    "project": "Orchid Enclave",
+    "city": "Bengaluru",
+    "area": "Sarjapur Road",
+    "bhk": 2,
+    "price_lakhs": 78,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR004",
+    "project": "Orchid Enclave",
+    "city": "Bengaluru",
+    "area": "Sarjapur Road",
+    "bhk": 3,
+    "price_lakhs": 112,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR005",
+    "project": "Green Acres",
+    "city": "Bengaluru",
+    "area": "Electronic City",
+    "bhk": 2,
+    "price_lakhs": 64,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR006",
+    "project": "Green Acres",
+    "city": "Bengaluru",
+    "area": "Electronic City",
+    "bhk": 3,
+    "price_lakhs": 89,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR007",
+    "project": "Cedar Grove",
+    "city": "Bengaluru",
+    "area": "Hebbal",
+    "bhk": 3,
+    "price_lakhs": 145,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR008",
+    "project": "Cedar Grove",
+    "city": "Bengaluru",
+    "area": "Hebbal",
+    "bhk": 4,
+    "price_lakhs": 198,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR009",
+    "project": "Maple Heights",
+    "city": "Bengaluru",
+    "area": "Jayanagar",
+    "bhk": 2,
+    "price_lakhs": 125,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR010",
+    "project": "Maple Heights",
+    "city": "Bengaluru",
+    "area": "Jayanagar",
+    "bhk": 3,
+    "price_lakhs": 174,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR011",
+    "project": "Skyline Villas",
+    "city": "Bengaluru",
+    "area": "Devanahalli",
+    "bhk": 3,
+    "price_lakhs": 155,
+    "type": "Villa",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR012",
+    "project": "Skyline Villas",
+    "city": "Bengaluru",
+    "area": "Devanahalli",
+    "bhk": 4,
+    "price_lakhs": 225,
+    "type": "Villa",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR013",
+    "project": "Palm Court",
+    "city": "Bengaluru",
+    "area": "JP Nagar",
+    "bhk": 2,
+    "price_lakhs": 83,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR014",
+    "project": "Palm Court",
+    "city": "Bengaluru",
+    "area": "JP Nagar",
+    "bhk": 3,
+    "price_lakhs": 119,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR015",
+    "project": "Riverstone",
+    "city": "Bengaluru",
+    "area": "Kanakapura Road",
+    "bhk": 3,
+    "price_lakhs": 97,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR016",
+    "project": "Marina Crest",
+    "city": "Chennai",
+    "area": "OMR",
+    "bhk": 2,
+    "price_lakhs": 88,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR017",
+    "project": "Marina Crest",
+    "city": "Chennai",
+    "area": "OMR",
+    "bhk": 3,
+    "price_lakhs": 118,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR018",
+    "project": "Grand Vista",
+    "city": "Chennai",
+    "area": "Porur",
+    "bhk": 2,
+    "price_lakhs": 76,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR019",
+    "project": "Grand Vista",
+    "city": "Chennai",
+    "area": "Porur",
+    "bhk": 3,
+    "price_lakhs": 104,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR020",
+    "project": "Greenfield Heights",
+    "city": "Chennai",
+    "area": "Medavakkam",
+    "bhk": 2,
+    "price_lakhs": 69,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR021",
+    "project": "Greenfield Heights",
+    "city": "Chennai",
+    "area": "Medavakkam",
+    "bhk": 3,
+    "price_lakhs": 96,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR022",
+    "project": "OMR Horizon",
+    "city": "Chennai",
+    "area": "Sholinganallur",
+    "bhk": 2,
+    "price_lakhs": 84,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR023",
+    "project": "OMR Horizon",
+    "city": "Chennai",
+    "area": "Sholinganallur",
+    "bhk": 3,
+    "price_lakhs": 121,
+    "type": "Apartment",
+    "availability": "Under construction"
+  },
+  {
+    "id": "SR024",
+    "project": "Garden City",
+    "city": "Chennai",
+    "area": "Anna Nagar",
+    "bhk": 2,
+    "price_lakhs": 148,
+    "type": "Apartment",
+    "availability": "Ready to move"
+  },
+  {
+    "id": "SR025",
+    "project": "Garden City",
+    "city": "Chennai",
+    "area": "Anna Nagar",
+    "bhk": 3,
+    "price_lakhs": 196,
+    "type": "Apartment",
+    "availability": "Under construction"
+  }
 ]

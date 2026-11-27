@@ -57,6 +57,17 @@ async def test_search_properties_filters_listings():
 
 
 @pytest.mark.asyncio
+async def test_search_properties_filters_by_city():
+    chennai = await tools.search_properties(None, area="Chennai")
+    bengaluru = await tools.search_properties(None, area="Bengaluru")
+
+    assert chennai["count"] == 10
+    assert all(listing["city"] == "Chennai" for listing in chennai["listings"])
+    assert bengaluru["count"] == 15
+    assert all(listing["city"] == "Bengaluru" for listing in bengaluru["listings"])
+
+
+@pytest.mark.asyncio
 async def test_lead_update_publishes_only_allowed_details():
     published = []
 

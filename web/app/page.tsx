@@ -141,7 +141,7 @@ export default function Home() {
           )}
           {status === "idle" && (
             <div className="call-prompt">
-              <p className="eyebrow">SUNRISE REALTY · BENGALURU</p>
+              <p className="eyebrow">SUNRISE REALTY · BENGALURU · CHENNAI</p>
               <h1>Find a place<br />to call home.</h1>
               <p className="intro">Talk through what you’re looking for. Aria can help you explore sample listings and arrange a visit.</p>
               <button className="primary-button" onClick={startCall}>Start call</button>
@@ -294,7 +294,7 @@ function CallSession({
 
   return (
     <div className="live-surface">
-      <p className="eyebrow">SUNRISE REALTY · BENGALURU</p>
+      <p className="eyebrow">SUNRISE REALTY · BENGALURU · CHENNAI</p>
       <h1>{agentMessage}</h1>
       <div className={`visualizer ${!connected ? "visualizer-off" : ""}`} aria-label={speaking ? "Agent audio level" : "Audio level"}>
         <BarVisualizer trackRef={agent.audioTrack} state={agent.state} barCount={48} options={{ minHeight: 1, maxHeight: 22 }} />
